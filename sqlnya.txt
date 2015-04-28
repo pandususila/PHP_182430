@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `tabel_biodata` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama` varchar(50) NOT NULL,
+  `jenis_kelamin` enum('Laki-Laki','Perempuan') NOT NULL,
+  `alamat` varchar(100) NOT NULL,
+  `no_hp` varchar(12) NOT NULL,
+  PRIMARY KEY (`id`)
+);
